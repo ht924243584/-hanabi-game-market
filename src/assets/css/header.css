@@ -1,0 +1,103 @@
+  .el-carousel__indicators{
+    left: 120px;
+  }
+  .user_info{
+    width:260px;
+    border: 1px solid rgb(40,47,57);
+    margin: 0px;
+    line-height: 20px;
+    z-index: 3;
+    position: absolute;
+    right: -10px;
+  }
+  .user_info_top{
+    padding: 20px;
+    background-color: rgb(49,58,69);
+  }
+  .user_info_top>*{
+    margin: 0px 8px;
+  }
+  .user_info_bottom{
+    padding: 10px;
+    background-color: rgb(58,68,82);
+  }
+  .user_info_bottom>*{
+    margin: 10px;
+  }
+  .el-select>.el-input>input{
+    background: none;
+    border: 0px;
+    width: 100px;
+  }
+  .el-container{
+    min-height: 510px;
+    background-image: url(../imgs/index-header-bg.jpg);
+  }
+  .el-header{
+    width: 100%;
+    background-image:url(../imgs/top-bg.png)
+  }
+  /* .el-input__inner{
+    color: rgb(222,225,230);
+  } */
+
+  .el-select-dropdown__item{
+    float: none;
+    width: 100%;
+  }
+
+  .el-header li{
+    line-height: 60px;
+    padding: 0px 20px;
+    color: rgb(222,225,230);
+    cursor: pointer;
+  }
+  .menu_right>.log:hover{
+    background: none;
+  }
+ .menu_right>li:hover{
+    color: white;
+    background-color: rgb(57,65,84);
+  }
+.menu_right>li{
+    padding: 0px 10px;
+    height: 100%;
+  }
+  .el-carousel__item.is-animating {
+      -webkit-transition: -webkit-transform 0.3s ease-in-out;
+      transition: -webkit-transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+      transition: transform 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
+  }
+  .el-carousel__item:nth-child(2n) {
+    background: none;
+  }
+  .el-carousel__item:nth-child(2n+1) {
+    background: none;
+  }
+  .el-carousel {
+    overflow: hidden;
+  }
+  .el-carousel__container{
+    overflow: hidden;
+  }
+
+
+  .right_nav>div{
+    cursor: pointer;
+    background-color: rgb(52,62,75);
+    padding: 10px;
+  }
+  .right_nav>div>p{
+    color: #929394;
+    font-size: 12px;
+  }
+  .right_nav>div>i{
+  color: rgb(153,162,175);
+  }
+  .right_nav>div:hover{
+    background-color: rgb(45,54,66);
+  }
+  .right_nav>div:not(:nth-child(1)){
+    border-top: 2px solid rgb(45,54,66);
+  }

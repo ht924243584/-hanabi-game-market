@@ -1,0 +1,36 @@
+.footer{
+    background-image: url(../imgs/footer-bg.jpg);
+  }
+  .footer>.public{
+    display: flex;
+  }
+  .footer>.public>.el-col{
+    flex: 1;
+  }
+  .footer .el-col{
+    padding: 50px 0px;
+  }
+  .footer .el-col>*{
+    text-align: left;
+    margin: 20px 0px;
+  }
+  .footer .el-col>h4{
+    color: white;
+  }
+  .el-col>p{
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(149,149,149);
+  }
+  .el-col>p>a:hover{
+    color: rgb(238,162,14);
+  }
+  .lines{
+    height: 1px;
+    background: -webkit-linear-gradient(left,rgb(43,47,56),rgb(68,110,189),rgb(43,47,56)) no-repeat;
+  }
+  .footer>p{
+    padding: 20px;
+    color: #959595;
+    font-size: 12px;
+  }

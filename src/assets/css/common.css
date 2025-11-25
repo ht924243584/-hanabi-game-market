@@ -1,0 +1,37 @@
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    overflow-x: hidden;
+    background-color: rgb(237,237,237);
+  }
+  .el-container{
+    background-repeat: no-repeat;
+  }
+  li{
+    float: left;
+    font-size: 14px;
+    list-style: none;
+    line-height: 40px;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  .f_Strong{
+    font-size: 20px;
+    color: #E6A23C;
+  }
+  .public{
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0px auto;
+  }
+  .img_log{
+    position: relative;
+    top: 4px;
+    display:inline-block
+  }
